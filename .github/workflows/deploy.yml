@@ -22,4 +22,4 @@ jobs:
           password: ${{ secrets.SFTP_PASS }}
           local_path: './'
           remote_path: ${{ secrets.SFTP_PATH }}
-          delete_remote_files: false
+          delete_remote_files: true
